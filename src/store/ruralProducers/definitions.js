@@ -1,0 +1,122 @@
+export const initialState = [
+    {
+        id: 1,
+        identity: "53.641.747/0001-95",
+        producerName: "Raquel Heloisa Sales",
+        farmName: "Pedaço de céu",
+        city: "AUTAZES",
+        state: "AM",
+        totalArea: 100,
+        agriculturalArea: 70,
+        vegetationArea: 10,
+        plantedCrops: ["Soja", "Milho", "Algodão", "Café", "Cana de açúcar"]        
+    },
+    {
+        id: 2,
+        identity: "96.324.365/0001-40",
+        producerName: "Nair Priscila Camila Costa",
+        farmName: "Noite serena",
+        city: "ABADIA DE GOIÁS",
+        state: "GO",
+        totalArea: 10000,
+        agriculturalArea: 6000,
+        vegetationArea: 4000,
+        plantedCrops: ["Soja", "Milho", "Algodão", "Café", "Cana de açúcar"] 
+    },
+    {
+        id: 3,
+        identity: "24.351.463/0001-66",
+        producerName: "Ruan Danilo Campos",
+        farmName: "Montanha alta",
+        city: "BARCELOS",
+        state: "AM",
+        totalArea: 400,
+        agriculturalArea: 350,
+        vegetationArea: 25,
+        plantedCrops: ["Soja"]
+    },
+    {
+        id: 4,
+        identity: "305.359.990-20",
+        producerName: "Otávio João Cardoso",
+        farmName: "Cantinho feliz",
+        city: "ADOLFO",
+        state: "SP",
+        totalArea: 500,
+        agriculturalArea: 400,
+        vegetationArea: 20,
+        plantedCrops: ["Café", "Cana de açúcar"] 
+    },
+    {
+        id: 5,
+        identity: "842.980.270-31",
+        producerName: "Beatriz Andrea Porto",
+        farmName: "Renascer",
+        city: "AJAPI",
+        state: "SP",
+        totalArea: 50,
+        agriculturalArea: 25,
+        vegetationArea: 25,
+        plantedCrops: ["Milho"] 
+    },
+    {
+        id: 6,
+        identity: "07.794.817/0001-28",
+        producerName: "Thales Guilherme Souza",
+        farmName: "Serena",
+        city: "ABAETÉ",
+        state: "MG",
+        totalArea: 800,
+        agriculturalArea: 600,
+        vegetationArea: 120,
+        plantedCrops: ["Cana de açúcar"] 
+    },
+    {
+        id: 7,
+        identity: "504.127.620-05",
+        producerName: "Esther Laura Baptista",
+        farmName: "Semente",
+        city: "BIQUINHAS",
+        state: "MG",
+        totalArea: 3000,
+        agriculturalArea: 50,
+        vegetationArea: 2000,
+        plantedCrops: ["Algodão"] 
+    },
+    {
+        id: 8,
+        identity: "289.121.820-56",
+        producerName: "Luana Silvana Valentina Fernandes",
+        farmName: "Trevo de Quatro Folhas",
+        city: "CAMPO FLORIDO",
+        state: "MG",
+        totalArea: 40.5,
+        agriculturalArea: 30,
+        vegetationArea: 0.5,
+        plantedCrops: ["Soja"] 
+    },
+    {
+        id: 9,
+        identity: "867.934.750-70",
+        producerName: "Cláudio Lucas Henrique da Luz",
+        farmName: "Sombra da Terra",
+        city: "CAMPO FLORIDO",
+        state: "MG",
+        totalArea: 10,
+        agriculturalArea: 0,
+        vegetationArea: 0,
+        plantedCrops: ["Cana de açúcar"] 
+    },
+    {
+        id: 10,
+        identity: "33.193.285/0001-83",
+        producerName: "Thomas Raul Peixoto",
+        farmName: "Espelho D'água",
+        city: "ACORIZAL",
+        state: "MT",
+        totalArea: 70,
+        agriculturalArea: 25.5,
+        vegetationArea: 10,
+        plantedCrops: ["Soja", "Cana de açúcar"]
+    }
+]

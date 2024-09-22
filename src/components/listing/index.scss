@@ -1,0 +1,54 @@
+.listing {
+    margin-top: 20px;
+    border-spacing: 0;
+    width: 100%;
+
+    thead tr {
+        background-color: #e5e5e5;
+
+        th {
+            border-bottom-width: 1px;
+            border-bottom-color: #a8a8a8;
+            border-style: solid;
+        }
+    }
+
+    tbody {
+        tr:nth-child(even) {
+            background-color: #efefef;
+        }
+
+        tr:last-child {
+            td {
+                border-bottom-width: 1px;
+                border-bottom-color: #a8a8a8;
+                border-style: solid;
+            }
+        }
+    }
+
+    th,
+    td {
+        border-width: 0;
+        padding: 12px 32px;
+        text-align: left;
+    }
+}
+
+.listing-text {
+    max-width: 15ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.listing-link,
+.listing-button {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+}

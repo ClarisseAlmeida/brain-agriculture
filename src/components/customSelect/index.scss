@@ -1,0 +1,34 @@
+.customSelect {
+    border-color: #dfdfdf;
+    transition: border-color 0.2s ease-in-out;
+    font-size: 16px;
+    height: 48px;
+    padding: 0 20px;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+    &:focus {
+        border-color: #484c53;
+        outline: none;
+    }
+
+    &:disabled {
+        cursor: no-drop;
+    }
+
+    option {
+        text-transform: uppercase;
+    }
+}
+
+.customSelect--error {
+    border-color: #ff0000;
+}
+
+.customSelect-errorMessage {
+    color: #ff0000;
+}

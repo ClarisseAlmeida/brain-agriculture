@@ -1,0 +1,44 @@
+.form-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.form-halfColumn {
+  width: calc((100% - 24px) / 2);
+  flex-shrink: 0;
+}
+
+.form-container {
+  margin-top: 32px;
+  justify-content: flex-end;
+}
+
+.form-tooltip {
+  position: relative;
+
+  &:hover .form-tooltip-text {
+    visibility: visible;
+  }
+}
+
+.form-tooltip-text {
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+  }
+}
